@@ -1,0 +1,22 @@
+h2 {
+  color: brown;
+}
+h3 {
+  color: darkred;
+  font-family: Verdana;
+}
+p {
+  color: gray;
+  font-style: italic;
+}
+.box {
+  background-color: bisque;
+  padding: 14px;
+  margin: 10px;
+}
+.border-sm {
+  border: 1px solid black;
+}
+.border-md {
+  border: 3px solid black;
+}
