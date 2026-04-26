@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form with Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      form {
+        width: 800px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Form with Bootstrap</h2>
+    <form class="border border-2 border-secondary rounded p-4 mt-4 bg-light">
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name: </label>
+        <input type="text" id="fullName" name="fullName" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email: </label>
+        <input type="email" id="email" name="email" class="form-control" />
+      </div>
+      <div class="mb-5">
+        <label for="message" class="form-label">Message: </label>
+        <textarea id="message" rows="5" class="form-control"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
